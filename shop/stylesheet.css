@@ -6,6 +6,7 @@ li {
   list-style: none;
 }
 
+/* 共有部品 */
 .header {
   height: 90px;
 }
@@ -14,24 +15,12 @@ li {
   color: #BF0000;
   float: left;
   font-size: 70px;
-
 }
 
 .header-list li {
   color: #BF0000;
   float: right;
   padding: 20px 20px;
-}
-
-.product-list {
-  background-color: #BF0000;
-  display: inline-block;
-  padding: 10px;
-}
-
-.product-list img {
-  width: 350px;
-  height: 350px;
 }
 
 .footer {
@@ -48,4 +37,44 @@ li {
   color: #BF0000;
   float: right;
   padding: 20px 20px;
+}
+
+/* ProductList */
+.product-list {
+  width: auto
+  background-color: #BF0000;
+  display: inline-block;
+  padding: 10px;
+}
+
+.product-list img {
+  width: 30%;
+}
+
+/* ProductDetail */
+.product-detail {
+  width: auto;
+  background-color: #BF0000;
+  display: inline-block;
+  padding: 10px;
+}
+
+.detail-img {
+  display: inline-block;
+}
+
+.detail-img img {
+  width: 50%;
+}
+
+.detail-name {
+  background-color: #FFFFFF;
+  width: 50%;
+  font-size: 40px;
+}
+
+.detail-description {
+  background-color: #FFFFFF;
+  width: 50%;
+  font-size: 20px;
 }
