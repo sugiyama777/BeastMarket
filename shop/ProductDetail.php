@@ -22,6 +22,22 @@ class productDetail {}
         <li>出品商品について</li>
     </div>
   </div>
+  <!-- ぱんくずリスト -->
+  <div class="search">
+    <div class = "search-list">
+      <ul class="breadcrumb">
+        <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <a href="localhost/shop/ProductList" itemprop="url">
+           <span itemprop="title">ホーム</span>
+          </a>
+        </li>
+        <li itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">
+          <a href="localhost/shop/ProductDetail" itemprop="url">
+           <span itemprop="title">商品詳細</span>
+          </a>
+        </li>
+    </div>
+  </div>
   <!-- 商品詳細 -->
   <div class="product-detail">
     <div class="detail-img">

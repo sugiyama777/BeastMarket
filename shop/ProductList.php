@@ -1,7 +1,9 @@
 <?php
 namespace shop;
 
-class productList {}
+class productList {
+
+}
 
 ?>
 
@@ -22,11 +24,23 @@ class productList {}
         <li>出品商品について</li>
     </div>
   </div>
+  <!-- 検索リスト -->
+  <div class="search">
+    <div class = "search-list">
+      <ul>
+        <li>生息地域</li>
+        <li>哺乳類</li>
+        <li>鳥類</li>
+        <li>爬虫類</li>
+        <li>両性類</li>
+        <li>魚類</li>
+    </div>
+  </div>
   <!-- 商品一覧 -->
   <div class="product-list">
     <div class="product-item">
-      <img src="./img/skull-937248_1920.jpg">
-      <p class="product-item-name">test</p>
+      <a href="ProductDetail.php"><img src="./img/skull-937248_1920.jpg"></a>
+      <a href="ProductDetail.php"><p class="product-item-name">test</p></a>
     </div>
     <div class="product-item">
       <img src="./img/skull-1170772_1920.jpg">
