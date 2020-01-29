@@ -1,0 +1,51 @@
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 90px;
+}
+
+.header-logo {
+  color: #BF0000;
+  float: left;
+  font-size: 70px;
+
+}
+
+.header-list li {
+  color: #BF0000;
+  float: right;
+  padding: 20px 20px;
+}
+
+.product-list {
+  background-color: #BF0000;
+  display: inline-block;
+  padding: 10px;
+}
+
+.product-list img {
+  width: 350px;
+  height: 350px;
+}
+
+.footer {
+  background-color: #CCCCCC;
+  height: 120px;
+}
+
+.footer-warning {
+  float: left;
+  font-size: 90px;
+}
+
+.footer-list {
+  color: #BF0000;
+  float: right;
+  padding: 20px 20px;
+}
