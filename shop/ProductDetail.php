@@ -40,18 +40,21 @@ class productDetail {}
   </div>
   <!-- 商品詳細 -->
   <div class="product-detail">
-    <div class="detail-img">
-      <img src="./img/skull-937248_1920.jpg">
-    </div>
-    <div class="detail-">
-    <div class="detail-name">test</div>
-    <div class="detail-description">
-      testtesttesttesttesttest<br>
-      testtesttesttesttesttest<br>
-      testtesttesttesttesttest<br>
-      testtesttesttesttesttest<br>
-      testtesttesttesttesttest<br>
-    </div>
+    <ul>
+      <li class="detail-img">
+        <img src="./img/skull-937248_1920.jpg">
+      </li>
+      <li class="detail-description">
+        <p>test</p>
+        <p>test円</p>
+        <p>
+          testtesttesttesttesttesttest<br>
+          testtesttesttesttesttesttest<br>
+          testtesttesttesttesttesttest<br>
+          testtesttesttesttesttesttest<br>
+          testtesttesttesttesttesttest<br>
+        </p>
+      </li>
   </div>
   <!-- フッター -->
   <div class="footer">
