@@ -38,24 +38,38 @@ class productList {
   </div>
   <!-- 商品一覧 -->
   <div class="product-list">
-    <div class="product-item">
-      <a href="ProductDetail.php"><img src="./img/skull-937248_1920.jpg"></a>
-      <a href="ProductDetail.php"><p class="product-item-name">test</p></a>
-    </div>
-    <div class="product-item">
-      <img src="./img/skull-1170772_1920.jpg">
-      <p class="product-item-name">test</p>
-    </div>
-    <div class="product-item">
-      <img src="./img/skulls-55485_1920.jpg">
-      <p class="product-item-name">test</p>
-    </div>
-    <div class="product-item">
-      <img src="./img/turtle-281073_1920.jpg">
-      <p class="product-item-name">test</p>
-    </div>
+    <ul>
+      <li>
+        <a href="ProductDetail.php"><img src="./img/skull-937248_1920.jpg"></a>
+        <a href="ProductDetail.php"><p class="item-name">test</p></a>
+        <a href="ProductDetail.php"><p class="item-price">test円</p></a>
+      </li>
+      <li>
+        <img src="./img/skull-1170772_1920.jpg">
+        <p class="item-name">test</p>
+        <p class="item-price">test円</p>
+      </li>
+      <li>
+        <img src="./img/skulls-55485_1920.jpg">
+        <p class="item-name">test</p>
+        <p class="item-price">test円</p>
+      </li>
+      <li>
+        <img src="./img/turtle-281073_1920.jpg">
+        <p class="item-name">test</p>
+        <p class="item-price">test円</p>
+      </li>
+      <li>
+        <img src="./img/turtle-281073_1920.jpg">
+        <p class="item-name">test</p>
+        <p class="item-price">test円</p>
+      </li>
+      <li>
+        <img src="./img/turtle-281073_1920.jpg">
+        <p class="item-name">test</p>
+        <p class="item-price">test円</p>
+      </li>
   </div>
-
   <!-- フッター -->
   <div class="footer">
     <div class="footer-warning">密猟は犯罪です</div>
