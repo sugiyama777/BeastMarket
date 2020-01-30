@@ -116,3 +116,76 @@ li {
   font-size: 20px;
   width: auto;
 }
+
+/* AdminTopPage */
+.exhibition-product {
+  text-align: center;
+}
+
+/* AdminAddPage */
+.product-add {
+  margin: 0 1% 30px;
+}
+
+.image-upload {
+  display: inline-flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.image-upload input {
+  width: 100px;
+  height: 25px
+}
+
+.add-name input {
+  width: 80%;
+}
+
+.add-description textarea {
+  width: 80%;
+  height: 400px;
+}
+
+.add-price input {
+  width: 40%;
+}
+
+.add-button input {
+  width: 100px;
+  height: 25px
+}
+
+/* AdminEditPage */
+.product-add {
+  margin: 0 1% 30px;
+}
+
+.image-upload {
+  display: inline-flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.image-upload input {
+  width: 100px;
+  height: 25px
+}
+
+.edit-name input {
+  width: 80%;
+}
+
+.edit-description textarea {
+  width: 80%;
+  height: 400px;
+}
+
+.edit-price input {
+  width: 40%;
+}
+
+.edit-button input {
+  width: 100px;
+  height: 25px
+}
