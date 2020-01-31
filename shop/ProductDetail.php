@@ -1,7 +1,16 @@
 <?php
 namespace shop;
+require_once('Product.php');
 
-class productDetail {}
+// $detailName = $_GET['name']
+// $detailDescription = $_GET['description']
+// $detailPrice = $_GET['description']
+// $detailImage = $_GET['image']
+
+class ProductDetail {
+  //一覧で選択された商品の画像、商品名、価格を表示させる
+  //正しいリンクを持ったパンくずリストを表示させる
+}
 
 ?>
 

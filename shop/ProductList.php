@@ -1,8 +1,12 @@
 <?php
 namespace shop;
+require_once('Date.php');
+require_once('Product.php');
 
-class productList {
-
+class ProductList {
+  //画像、テキスト押下で商品詳細に遷移する
+  //商品一覧を読み込む
+  //読み込んだ商品の画像、商品名、価格を表示させる
 }
 
 ?>
@@ -39,36 +43,13 @@ class productList {
   <!-- 商品一覧 -->
   <div class="product-list">
     <ul>
-      <li>
-        <a href="ProductDetail.php"><img src="./img/skull-937248_1920.jpg"></a>
-        <a href="ProductDetail.php"><p class="item-name">test</p></a>
-        <a href="ProductDetail.php"><p class="item-price">test円</p></a>
-      </li>
-      <li>
-        <img src="./img/skull-1170772_1920.jpg">
-        <p class="item-name">test</p>
-        <p class="item-price">test円</p>
-      </li>
-      <li>
-        <img src="./img/skulls-55485_1920.jpg">
-        <p class="item-name">test</p>
-        <p class="item-price">test円</p>
-      </li>
-      <li>
-        <img src="./img/turtle-281073_1920.jpg">
-        <p class="item-name">test</p>
-        <p class="item-price">test円</p>
-      </li>
-      <li>
-        <img src="./img/turtle-281073_1920.jpg">
-        <p class="item-name">test</p>
-        <p class="item-price">test円</p>
-      </li>
-      <li>
-        <img src="./img/turtle-281073_1920.jpg">
-        <p class="item-name">test</p>
-        <p class="item-price">test円</p>
-      </li>
+      <?php foreach ($dates as $date): ?>
+        <li>
+          <a href="ProductDetail.php"><img src="<?php echo $date->getImage() ?>"></a>
+          <a href="ProductDetail.php"><p class="item-name"><?php echo $date->getName() ?></p></a>
+          <a href="ProductDetail.php"><p class="item-price">￥ <?php echo $date->getPrice() ?></p></a>
+        </li>
+      <?php endforeach ?>
   </div>
   <!-- フッター -->
   <div class="footer">
