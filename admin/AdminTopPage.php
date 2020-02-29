@@ -10,7 +10,7 @@ class adminTopPage {}
 <head>
   <meta charset="utf-8">
   <title>管理画面</title>
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="../stylesheet.css">
 </head>
 <body>
   <!-- ヘッダー -->
@@ -18,22 +18,11 @@ class adminTopPage {}
     <div class="header-logo">猛獣市場</div>
     <div class="header-list">
       <ul>
-        <li>商品追加</li>
-        <li>商品情報編集</li>
+        <li><a href="AdminEditPage.php">商品情報編集</a></li>
+        <li><a href="AdminAddPage.php">商品情報追加</a></li>
     </div>
   </div>
-  <!-- 検索リスト -->
-  <div class="search">
-    <div class = "search-list">
-      <ul>
-        <li>生息地域</li>
-        <li>哺乳類</li>
-        <li>鳥類</li>
-        <li>爬虫類</li>
-        <li>両性類</li>
-        <li>魚類</li>
-    </div>
-  </div>
+
   <!-- 出品商品一覧 -->
   <h1 class="exhibition-product">出品商品一覧</h1>
   <div class="product-list">
